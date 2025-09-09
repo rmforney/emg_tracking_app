@@ -2,7 +2,7 @@
 
 - Real-time EMG with Callibri (neurosdk2)
 - Exercise presets, thresholds (Hi/Lo), MVC calibration
-- Rep counting & TUT, persistent history
+
 
 Quick start
 ```bash
