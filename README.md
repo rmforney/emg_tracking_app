@@ -1,16 +1,12 @@
-# callibri_emg_tracker
+ Callibri EMG Tracker (Flutter)
 
-A new Flutter project.
+- Real-time EMG with Callibri (neurosdk2)
+- Exercise presets, thresholds (Hi/Lo), MVC calibration
+- Rep counting & TUT, persistent history
 
-## Getting Started
+Quick start
+```bash
+flutter pub get
+cd ios && pod install && cd ..
+flutter run -d ios
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
