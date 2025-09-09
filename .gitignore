@@ -1,0 +1,38 @@
+# Flutter/Dart
+.dart_tool/
+.packages
+.pub-cache/
+build/
+*.lock # except Podfile.lock (we'll re-add below)
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/Generated.xcconfig.d
+**/*.xcworkspace/**
+**/*.xcuserstate
+**/*.xcuserdata/
+# Keep Podfile + Podfile.lock committed (un-ignore them)
+!ios/Podfile
+!ios/Podfile.lock
+
+# Android
+android/.gradle/
+android/app/build/
+**/local.properties
+
+# Keys & provisioning (do NOT commit)
+*.keystore
+*.jks
+*.p12
+*.mobileprovision
+*.pem
+*.cer
+
+# OS/editor noise
+.DS_Store
+.idea/
+.vscode/

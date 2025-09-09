@@ -1,0 +1,37 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_neurosdk2_ios (1.0.8)
+  - neurosdk2 (1.0.13):
+    - Flutter
+    - flutter_neurosdk2_ios (= 1.0.8)
+    - FlutterMacOS
+  - shared_preferences_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - neurosdk2 (from `.symlinks/plugins/neurosdk2/darwin`)
+  - shared_preferences_foundation (from `.symlinks/plugins/shared_preferences_foundation/darwin`)
+
+SPEC REPOS:
+  trunk:
+    - flutter_neurosdk2_ios
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  neurosdk2:
+    :path: ".symlinks/plugins/neurosdk2/darwin"
+  shared_preferences_foundation:
+    :path: ".symlinks/plugins/shared_preferences_foundation/darwin"
+
+SPEC CHECKSUMS:
+  Flutter: cabc95a1d2626b1b06e7179b784ebcf0c0cde467
+  flutter_neurosdk2_ios: ec35bafb91b55adf96119d17a58c1ddbf40baa65
+  neurosdk2: 227b78da0df7ffe6a2344791e2f0c856981e567a
+  shared_preferences_foundation: 9e1978ff2562383bd5676f64ec4e9aa8fa06a6f7
+
+PODFILE CHECKSUM: 251cb053df7158f337c0712f2ab29f4e0fa474ce
+
+COCOAPODS: 1.16.2
